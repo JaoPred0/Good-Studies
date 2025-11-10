@@ -53,15 +53,25 @@ const Conta = () => {
 
     if (carregando) {
         return (
-            <div className="flex justify-center items-center min-h-screen bg-base-200">
-                <span className="loading loading-spinner loading-lg text-primary"></span>
+            <div className="flex flex-col justify-center items-center h-screen p-6 text-center">
+                {/* Título */}
+                <h1 className="text-4xl font-bold text-primary mb-4">Good Studies</h1>
+
+                {/* Spinner */}
+                <span className="loading loading-spinner loading-lg text-primary mb-4"></span>
+
+                {/* Texto informativo */}
+                <p className="text-base-content/70 text-sm">
+                    Carregando sua conta...
+                </p>
             </div>
+
         );
     }
 
     if (!usuario) {
         return (
-            <div className="flex justify-center items-center min-h-screen bg-base-200">
+            <div className="flex justify-center items-center min-h-screen ">
                 <p className="text-base-content/70">Nenhum usuário autenticado.</p>
             </div>
         );
