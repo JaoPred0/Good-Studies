@@ -1,0 +1,88 @@
+[
+  {
+    "categoria": "Perfil e Padrão",
+    "icones": [
+      { "id": "user", "nome": "Padrão", "icone": "UserIcon" },
+      { "id": "usercircle", "nome": "Clássico", "icone": "UserCircleIcon" },
+      { "id": "hand", "nome": "Ativo", "icone": "HandRaisedIcon" },
+      { "id": "shield", "nome": "Seguro", "icone": "ShieldCheckIcon" },
+      { "id": "star", "nome": "Popular", "icone": "StarIcon" },
+      { "id": "check", "nome": "Verificado", "icone": "CheckCircleIcon" },
+      { "id": "heart", "nome": "Gentil", "icone": "HeartIcon" },
+      { "id": "trophy", "nome": "Vitorioso", "icone": "TrophyIcon" }
+    ]
+  },
+  {
+    "categoria": "Estudo e Conhecimento",
+    "icones": [
+      { "id": "academic", "nome": "Estudioso", "icone": "AcademicCapIcon" },
+      { "id": "book", "nome": "Leitor", "icone": "BookOpenIcon" },
+      { "id": "pencil", "nome": "Escritor", "icone": "PencilIcon" },
+      { "id": "calc", "nome": "Matemático", "icone": "CalculatorIcon" },
+      { "id": "beaker", "nome": "Cientista", "icone": "BeakerIcon" },
+      { "id": "calendar", "nome": "Organizado", "icone": "CalendarDaysIcon" },
+      { "id": "clock", "nome": "Pontual", "icone": "ClockIcon" }
+    ]
+  },
+  {
+    "categoria": "Tecnologia e Inovação",
+    "icones": [
+      { "id": "pc", "nome": "Tecnologia", "icone": "ComputerDesktopIcon" },
+      { "id": "code", "nome": "Programador", "icone": "CodeBracketIcon" },
+      { "id": "cpu", "nome": "Engenheiro", "icone": "CpuChipIcon" },
+      { "id": "chart", "nome": "Analista", "icone": "ChartBarIcon" },
+      { "id": "gear", "nome": "Técnico", "icone": "Cog6ToothIcon" },
+      { "id": "battery", "nome": "Energético", "icone": "Battery50Icon" },
+      { "id": "wifi", "nome": "Conectado", "icone": "WifiIcon" },
+      { "id": "adjust", "nome": "Personalizado", "icone": "AdjustmentsHorizontalIcon" }
+    ]
+  },
+  {
+    "categoria": "Criatividade e Arte",
+    "icones": [
+      { "id": "spark", "nome": "Criativo", "icone": "SparklesIcon" },
+      { "id": "paint", "nome": "Artista", "icone": "PaintBrushIcon" },
+      { "id": "music", "nome": "Músico", "icone": "MusicalNoteIcon" },
+      { "id": "film", "nome": "Cineasta", "icone": "FilmIcon" },
+      { "id": "light", "nome": "Inspirador", "icone": "LightBulbIcon" },
+      { "id": "camera", "nome": "Fotógrafo", "icone": "CameraIcon" },
+      { "id": "gift", "nome": "Criador", "icone": "GiftIcon" }
+    ]
+  },
+  {
+    "categoria": "Exploração e Mundo",
+    "icones": [
+      { "id": "rocket", "nome": "Explorador", "icone": "RocketLaunchIcon" },
+      { "id": "globe", "nome": "Global", "icone": "GlobeAltIcon" },
+      { "id": "map", "nome": "Viajante", "icone": "MapIcon" },
+      { "id": "plane", "nome": "Mensageiro", "icone": "PaperAirplaneIcon" },
+      { "id": "truck", "nome": "Motorista", "icone": "TruckIcon" },
+      { "id": "home", "nome": "Caseiro", "icone": "HomeIcon" },
+      { "id": "modernhome", "nome": "Moderno", "icone": "HomeModernIcon" }
+    ]
+  },
+  {
+    "categoria": "Natureza e Energia",
+    "icones": [
+      { "id": "sun", "nome": "Solar", "icone": "SunIcon" },
+      { "id": "moon", "nome": "Noturno", "icone": "MoonIcon" },
+      { "id": "cloud", "nome": "Reflexivo", "icone": "CloudIcon" },
+      { "id": "fire", "nome": "Intenso", "icone": "FireIcon" },
+      { "id": "bell", "nome": "Atento", "icone": "BellAlertIcon" },
+      { "id": "eye", "nome": "Observador", "icone": "EyeIcon" }
+    ]
+  },
+  {
+    "categoria": "Comunicação e Social",
+    "icones": [
+      { "id": "chat", "nome": "Comunicador", "icone": "ChatBubbleLeftRightIcon" },
+      { "id": "micro", "nome": "Apresentador", "icone": "MicrophoneIcon" },
+      { "id": "megaphone", "nome": "Divulgador", "icone": "MegaphoneIcon" },
+      { "id": "envelope", "nome": "Mensageiro", "icone": "EnvelopeIcon" },
+      { "id": "group", "nome": "Social", "icone": "UserGroupIcon" },
+      { "id": "lifebuoy", "nome": "Ajudante", "icone": "LifebuoyIcon" },
+      { "id": "bank", "nome": "Financeiro", "icone": "BanknotesIcon" },
+      { "id": "wrench", "nome": "Consertador", "icone": "WrenchIcon" }
+    ]
+  }
+]

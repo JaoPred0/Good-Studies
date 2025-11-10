@@ -5,21 +5,21 @@ import Dock from "./Dock";
 
 const Layout = ({ children }) => {
   return (
-    <div className="flex h-screen w-full overflow-hidden">
-      {/* Sidebar fixa no desktop */}
-      <div className="hidden lg:flex">
+    <div className="flex w-full h-screen">
+      {/* Sidebar no desktop */}
+      <div className="hidden lg:flex lg:flex-col  bg-base-200 border-r border-base-300 z-20">
         <Sidebar />
       </div>
 
       {/* Área principal */}
-      <div className="flex-1 flex flex-col relative">
-        {/* Navbar sempre no topo */}
+      <div className="flex-1 flex flex-col">
+        {/* Navbar sticky no topo */}
         <div className="sticky top-0">
           <Navbar />
         </div>
 
-        {/* Conteúdo do desktop */}
-        <main className="hidden lg:flex flex-1 overflow-y-auto p-6 w-full">
+        {/* Conteúdo do desktop — só ele rola verticalmente */}
+        <main className="hidden lg:flex flex-1 flex-col overflow-y-auto p-6">
           {children}
         </main>
 

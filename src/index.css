@@ -3,11 +3,25 @@
 
 @plugin "daisyui" {
     themes: all;
-    themes: light --default;
+    themes: all;
 }
 
 * {
     font-family: "Elms Sans", sans-serif;
     font-style: normal;
     font-optical-sizing: auto;
+}
+
+@keyframes spin-slow {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.animate-spin-slow {
+    animation: spin-slow 5s linear infinite;
 }
