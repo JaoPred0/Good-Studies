@@ -12,6 +12,8 @@ import BemVindo from "../pages/BemVindo";
 import Conta from "../pages/configuracoes/conta";
 import Tema from "../pages/configuracoes/Tema";
 import LoadingScreen from "../components/LoadingScreen";
+import Termos from "../pages/Termos";
+import Seguranca from "../pages/configuracoes/Seguranca";
 
 const AppRoutes = () => {
   const [user, loading] = useAuthState(auth);
@@ -34,7 +36,8 @@ const AppRoutes = () => {
         path="/register"
         element={!user ? <Register /> : <Navigate to="/" replace />}
       />
-
+      <Route path="/termos" element={<Termos />} />
+      
       {/* Rotas protegidas */}
       <Route
         path="/"
@@ -57,6 +60,10 @@ const AppRoutes = () => {
       <Route
         path="/configuracoes/tema"
         element={user ? <Layout><Tema /></Layout> : <Navigate to="/login" replace />}
+      />
+      <Route
+        path="/configuracoes/alterar-senha"
+        element={user ? <Layout><Seguranca /></Layout> : <Navigate to="/login" replace />}
       />
       {/* Fallback */}
       <Route path="*" element={<Navigate to="/login" replace />} />
