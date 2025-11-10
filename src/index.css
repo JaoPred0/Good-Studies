@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Encode+Sans+Semi+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
+@import 'tailwindcss';
+
+@plugin "daisyui" {
+    themes: all;
+    themes: light --default;
+}
+
+* {
+    font-family: "Elms Sans", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
